@@ -20,11 +20,11 @@ import org.eclipse.microprofile.jwt.Claim;
 import org.eclipse.microprofile.jwt.Claims;
 import org.eclipse.microprofile.jwt.JsonWebToken;
 
-@Path("/secured")
 @RequestScoped
 //@ApplicationScoped
 //@Dependent
 //@Singleton
+@Path("/secured")
 public class TokenSecuredResource {
 
     @Inject
